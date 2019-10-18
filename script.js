@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'http://OhdeD/OhdeD.github.io/';
+  const apiRoot = 'http://OhdeD/OhdeD.github.io/v1/task/';
   const trelloApiRoot = 'http://OhdeD/OhdeD.github.io/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
