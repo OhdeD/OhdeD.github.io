@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'http://OhdeD/OhdeD.github.io/v1/task/';
-  const trelloApiRoot = 'http://OhdeD/OhdeD.github.io/v1/trello/';
+  const apiRoot = 'https://young-sierra-68899.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://young-sierra-68899.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
